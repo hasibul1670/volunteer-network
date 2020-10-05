@@ -12,13 +12,13 @@ function Myevent() {
   const [loggedin, setloggedin] = useContext(usercontex);
 
   useEffect(() => {
-    fetch('http://localhost:5000/event?email=' + loggedin.email)
+    fetch('https://safe-thicket-25640.herokuapp.com/event?email=' + loggedin.email)
       .then(res => res.json())
       .then(data => setevent(data));
   }, [])
   function login(e, id) {
     history.push(from);
-    fetch(`http://localhost:5000/delete/${id}`, {
+    fetch(`https://safe-thicket-25640.herokuapp.com/delete/${id}`, {
       method: 'DELETE'
     })
       .then(res => res.json())

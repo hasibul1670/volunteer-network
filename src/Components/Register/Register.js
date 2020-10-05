@@ -17,7 +17,7 @@ function Register(props) {
     console.log("clicked handle ");
     history.replace(from);
     const newbooking = { ...loguser, ...EventInfo }
-    fetch('http://localhost:5000/addevent', {
+    fetch('https://safe-thicket-25640.herokuapp.com/addevent', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newbooking)

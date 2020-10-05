@@ -11,13 +11,13 @@ function Admin() {
     const [event, setevent] = useState([]);
     const [loggedin, setloggedin] = useContext(usercontex);
     useEffect(() => {
-        fetch('http://localhost:5000/admin')
+        fetch('https://safe-thicket-25640.herokuapp.com/admin')
             .then(res => res.json())
             .then(data => setevent(data));
     }, [])
     function login(e, id) {
         history.push(from);
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://safe-thicket-25640.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())
