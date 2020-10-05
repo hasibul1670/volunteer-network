@@ -1,0 +1,41 @@
+.navbar-brand img{
+    width: 13rem;
+}
+.no{
+   margin: 2rem;
+   
+}
+
+.nav-link{
+    font-size: large;
+    font-weight: 700;
+    color: black!important;
+}
+
+.body{
+    margin-left: 4rem;
+}
+.btn1{
+   margin-right: 1rem;
+}
+
+
+.card{
+    border-radius: 13px;
+}
+.card:hover{
+    background:#C4C4C4;
+    border: 0.2rem yellow solid;
+box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+
+}
+.e{
+    margin-left: 2rem;
+}
+h4{
+    border: 1px solid gray;
+padding: 2rem;
+margin-bottom: 1rem;
+    width: 35%;
+}

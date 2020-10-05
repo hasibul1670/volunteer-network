@@ -1,0 +1,25 @@
+.register{
+height: 700px;
+
+    background-color: lightgray;
+
+}
+.navbar-nav{
+    margin-left: 12rem!important;
+    margin-right: 5rem!important;
+}
+h3{
+    color:red;
+}
+
+.form-area{
+    background-color: white;
+    width: 30rem;
+    padding: 2rem;
+    box-shadow:5px 10px 25px rgb(70, 68, 65);
+    margin-left: 22rem;
+    margin-top: 3rem;
+
+
+
+}

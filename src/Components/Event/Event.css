@@ -1,0 +1,17 @@
+.event{
+   padding: 2rem;
+}
+.event img{
+    height: 350px;
+    width: 100%;
+    margin-top: -1rem;
+    margin-left: -0.001rem;
+}
+.card-body{
+background-color: aqua;
+
+}
+.card-body h5{
+    font-weight: 700;
+
+}

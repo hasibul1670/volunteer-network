@@ -1,0 +1,32 @@
+.left {
+    width: 20%;
+    margin-top: rem;
+    float: left;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.right {
+    width: 80%;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    float: right;
+    background-color: lightgray;
+    height: 100%;
+}
+
+.right h3 {
+    text-align: center;
+}
+
+.img1 {
+    margin-left: -10rem;
+    margin-top: 2rem;
+    background-color: white;
+}
+
+h4 {
+    width: 50rem;
+}
